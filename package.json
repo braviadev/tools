@@ -1,0 +1,82 @@
+{
+  "name": "tools",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Nelson Lai <me@nelsonlai.dev> (https://github.com/nelsonlaidev/)",
+  "type": "module",
+  "scripts": {
+    "build": "next build",
+    "check": "pnpm lint && pnpm typecheck && pnpm format:check && pnpm knip",
+    "clean": "rm -rf .next",
+    "dev": "next dev --turbo",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "preinstall": "npx --yes only-allow pnpm",
+    "knip": "knip",
+    "lint": "eslint --max-warnings 0 .",
+    "lint:fix": "eslint --fix --max-warnings 0 .",
+    "prepare": "lefthook install",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "typegen": "next typegen"
+  },
+  "dependencies": {
+    "@icons-pack/react-simple-icons": "^11.1.0",
+    "@mantine/hooks": "^7.16.1",
+    "@radix-ui/react-checkbox": "^1.3.3",
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-select": "^2.2.6",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@t3-oss/env-nextjs": "^0.13.8",
+    "@types/uuid": "^10.0.0",
+    "canvas": "^3.2.0",
+    "clsx": "^2.1.1",
+    "colord": "^2.9.3",
+    "cva": "1.0.0-beta.4",
+    "file-saver": "^2.0.5",
+    "filesize": "^10.1.6",
+    "geist": "^1.5.1",
+    "lucide-react": "^0.474.0",
+    "next": "^15.1.11",
+    "pdfjs-dist": "3.11.174",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-dropzone": "^14.3.5",
+    "react-textarea-autosize": "^8.5.9",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^3.3.1",
+    "use-debounce": "^10.0.4",
+    "usehooks-ts": "^3.1.0",
+    "uuid": "^11.0.5",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@nelsonlaidev/eslint-config": "^1.0.0",
+    "@nelsonlaidev/prettier-config": "^0.1.0",
+    "@nelsonlaidev/typescript-config": "^0.0.3",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "24.3.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "eslint": "^9.35.0",
+    "knip": "^5.73.4",
+    "lefthook": "^2.0.2",
+    "postcss-load-config": "^6.0.1",
+    "prettier": "^3.6.2",
+    "prettier-plugin-packagejson": "^2.5.19",
+    "tailwindcss": "^4.1.13",
+    "tw-animate-css": "^1.3.8",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "pnpm@10.15.1",
+  "engines": {
+    "node": ">=24"
+  },
+  "pnpm": {
+    "overrides": {
+      "canvas": "^3.2.0"
+    }
+  }
+}
