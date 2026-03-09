@@ -15,17 +15,17 @@ type LayoutProps = {
   children: React.ReactNode
 }
 
-const MY_NAME = 'Nelson Lai'
+const MY_NAME = 'olanrewaju Toyyib'
 const SITE_URL = env.NEXT_PUBLIC_SITE_URL
 const SITE_TITLE = 'Tools'
 const SITE_DESCRIPTION =
-  'Discover a powerful collection of web tools designed to streamline your workflow and boost productivity. Made by @nelsonlaidev.'
+  'Discover a powerful collection of web tools designed to streamline your workflow and boost productivity. Made by @braviadev.'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: SITE_TITLE,
   description: SITE_DESCRIPTION,
-  creator: 'nelsonlaidev',
+  creator: 'braviadev',
   manifest: '/site.webmanifest',
   alternates: {
     canonical: SITE_URL
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   },
   authors: {
     name: MY_NAME,
-    url: 'https://nelsonlai.dev'
+    url: 'https://bravía.com'
   },
   openGraph: {
     title: SITE_TITLE,
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     siteId: '1152256803746377730',
-    creator: '@nelsonlaidev',
+    creator: '@braviadev',
     creatorId: '1152256803746377730'
   },
   icons: {
