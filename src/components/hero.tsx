@@ -11,8 +11,8 @@ const Hero = () => {
       </h1>
       <p className='leading-6 text-muted-foreground'>
         Discover a powerful collection of web tools designed to streamline your workflow and boost productivity. Made by{' '}
-        <Link href='https://github.com/nelsonlaidev' className='text-white'>
-          @nelsonlaidev
+        <Link href='https://github.com/braviadev' className='text-white'>
+          @braviadev
         </Link>
         . I hope to practice my skills.
       </p>
@@ -20,7 +20,7 @@ const Hero = () => {
         <Link href='#get-started' className={buttonVariants()}>
           Get started
         </Link>
-        <Link href='https://github.com/nelsonlaidev/tools' className={buttonVariants({ variant: 'outline' })}>
+        <Link href='https://github.com/braviadev/tools' className={buttonVariants({ variant: 'outline' })}>
           Source code
         </Link>
       </div>
