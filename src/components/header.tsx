@@ -10,7 +10,7 @@ const Header = () => {
         <Link href='/' aria-label='Home'>
           <Logo width={24} height={24} />
         </Link>
-        <a target='_blank' rel='noopener noreferrer' href='https://github.com/nelsonlaidev/tools' aria-label='GitHub'>
+        <a target='_blank' rel='noopener noreferrer' href='https://github.com/braviadev/tools' aria-label='GitHub'>
           <SiGithub />
         </a>
       </div>
