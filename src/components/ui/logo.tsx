@@ -4,7 +4,7 @@ const Logo = (props: LogoProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      version="1.1"
+      version="1.0"
       width={640}
       height={715}
       viewBox="0 0 640 715"
