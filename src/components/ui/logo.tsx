@@ -2,7 +2,14 @@ import { SVGProps } from 'react'
 
 export function Logo(props: SVGProps<SVGSVGElement>) {
   return (
-     <svg version='1.0' xmlns='http://www.w3.org/2000/svg' width={640} height={715} viewBox='0 0 640 715' {...props}>
+    <svg
+      version='1.0'
+      xmlns='http://www.w3.org/2000/svg'
+      width={640}
+      height={715}
+      viewBox='0 0 640 715'
+      {...props}
+    >
       <g filter='url(#a)'>
         <path fill='#000' d='M4 0h159v160H4z' />
       </g>
@@ -16,4 +23,3 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
     </svg>
   )
 }
-export { Logo }
