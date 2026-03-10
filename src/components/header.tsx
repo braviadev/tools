@@ -1,4 +1,3 @@
-/* eslint-disable import-sort/imports */
 import Image from 'next/image'
 import Link from 'next/link'
 import { SiGithub } from '@icons-pack/react-simple-icons'
