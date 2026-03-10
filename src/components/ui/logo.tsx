@@ -2,7 +2,7 @@ type LogoProps = React.SVGProps<SVGSVGElement>
 
 const Logo = (props: LogoProps) => {
   return (
-    <svg viewBox='0 0 159 160' xmlns='http://www.w3.org/2000/svg' {...props}>
+    <svg version='1.0' xmlns='http://www.w3.org/2000/svg' width={159} height={160} viewBox='0 0 159 160' {...props}>
       <rect width='159' height='160' fill='black' />
 
       <g filter='url(#blurFilter)'>
