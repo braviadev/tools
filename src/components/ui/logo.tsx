@@ -5,9 +5,9 @@ const Logo = (props: LogoProps) => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       version="1.1"
-      width={1280}
-      height={1280}
-      viewBox="0 0 1280 1280"
+      width={640}
+      height={715}
+      viewBox="0 0 640 715"
       {...props}
     >
       <path
