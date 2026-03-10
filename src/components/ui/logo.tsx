@@ -2,7 +2,11 @@ type LogoProps = React.SVGProps<SVGSVGElement>
 
 const Logo = (props: LogoProps) => {
   return (
-    <svg version='1.0' xmlns='http://www.w3.org/2000/svg' width={640} height={715} viewBox='0 0 159 160' {...props}>
+    <svg
+      viewBox='0 0 159 160'
+      xmlns='http://www.w3.org/2000/svg'
+      {...props}
+    >
       <rect width='159' height='160' fill='black' />
 
       <g filter='url(#blurFilter)'>
@@ -23,12 +27,8 @@ const Logo = (props: LogoProps) => {
           colorInterpolationFilters='sRGB'
         >
           <feFlood floodOpacity='0' result='BackgroundImageFix' />
-          <feBlend
-            in='SourceGraphic'
-            in2='BackgroundImageFix'
-            result='shape'
-          />
-          <feGaussianBlur stdDeviation='2' result='effect1_foregroundBlur_2_2' />
+          <feBlend in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
+          <feGaussianBlur stdDeviation='2' />
         </filter>
       </defs>
     </svg>
