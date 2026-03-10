@@ -1,13 +1,13 @@
-type LogoProps = React.SVGAttributes<SVGElement>
+type LogoProps = React.SVGAttributes<SVGElement>;
 
 const Logo = (props: LogoProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      version="1.0"
-      width={640}
-      height={715}
-      viewBox="0 0 640 715"
+      version="1.1"
+      width={1280}
+      height={1280}
+      viewBox="0 0 1280 1280"
       {...props}
     >
       <path
