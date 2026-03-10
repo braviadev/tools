@@ -1,7 +1,7 @@
 import { SiGithub } from '@icons-pack/react-simple-icons'
 import Link from 'next/link'
 
-// import { Logo } from './ui/logo'
+import { Logo } from './ui/logoo'
 
 const Header = () => {
   return (
